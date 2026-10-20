@@ -59,6 +59,9 @@ export default async function RoomPage({ params, searchParams }: PageProps) {
           <header className="mb-5">
             <h1 className="display-lg">{room.name}</h1>
             <p className="lede mt-3 max-w-xl">{room.tagline}</p>
+            <a href="#request" className="link-arrow mt-5 inline-flex lg:hidden">
+              Check the book and send a request
+            </a>
           </header>
 
           <RoomGallery photos={room.photos} name={room.name} />

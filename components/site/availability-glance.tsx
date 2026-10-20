@@ -34,7 +34,7 @@ export async function AvailabilityGlance() {
           <div>
             <p className="label">The book, this fortnight</p>
             <p className="mt-1.5 font-display text-xl">
-              {rooms.length} rooms · {Object.values(taken).reduce((sum, set) => sum + set.size, 0)} nights already taken
+              {rooms.length} rooms · {Object.values(taken).reduce((sum, set) => sum + set.size, 0)} room-nights already taken
             </p>
           </div>
           <Link href="/stay" className="link-arrow">
